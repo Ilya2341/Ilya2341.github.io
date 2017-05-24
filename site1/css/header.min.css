@@ -1,1 +1,315 @@
-body,button{font-size:16px}.line_wrap .top_line .right_sider .wraper_basket:after,.line_wrap .top_line .right_sider .wraper_basket:before{content:'';background-color:#ccc;top:-16px;height:55px;width:1px;position:absolute}.head_baner,.line_wrap .top_line .welcome span,.logo_line .col,.main_mnu ul,button{text-transform:uppercase}@font-face{font-family:HelveticaNeue;src:url(../fonts/HelveticaNeue/HelveticaNeue.otf)}@font-face{font-family:pfdintextcondpro;src:url(../fonts/pfdintextcondpro/pfdintextcondpro-regular.ttf)}body{margin:0;min-width:320px;position:relative;line-height:1.6;font-family:HelveticaNeue,sans-serif;overflow-x:hidden}button{display:block;margin:auto;padding:15px 25px;border:1px solid #fff;background-color:transparent;color:#fff;cursor:pointer}button:hover{background-color:#CAECEA;color:#bbb}.hidden{display:none}.container{max-width:1200px;margin:auto}.line_wrap{border-bottom:1px solid #ccc;padding-bottom:10px;margin-top:15px}.line_wrap .top_line{height:28px;max-width:1200px;margin:auto}.line_wrap .top_line a{color:#000;text-decoration:underline}.line_wrap .top_line .lang{width:125px;border-right:1px solid #000;position:relative;float:left}.line_wrap .top_line .lang img{margin:5px 0}.line_wrap .top_line .lang a{display:block;padding-left:40px;background-image:url(../img/usa.png);background-repeat:no-repeat;background-position:0 3px;text-decoration:none}.line_wrap .top_line .lang a .arr,.line_wrap .top_line .right_sider a{background-image:url(../img/icon.png);background-repeat:no-repeat}.line_wrap .top_line .lang a .arr{position:absolute;right:15px;top:5px;width:16px;height:10px;background-position:-70px -5px}.line_wrap .top_line .welcome{float:left;margin-left:20px;font-size:12px;line-height:28px}.line_wrap .top_line .right_sider{height:28px}.line_wrap .top_line .right_sider a{display:block;width:24px;height:30px}.line_wrap .top_line .right_sider .search .like_butt,.line_wrap .top_line .right_sider .search .search_butt,.logo_line .col,.main_mnu ul li{display:inline-block}.line_wrap .top_line .right_sider .search{float:right;width:115px;height:28px;position:relative;margin-right:30px}.line_wrap .top_line .right_sider .search .like_butt a{background-position:-24px 0}.line_wrap .top_line .right_sider .search .like_butt a,.line_wrap .top_line .right_sider .search .like_butt span{float:left;margin-left:10px}.line_wrap .top_line .right_sider .search .like_butt span,.line_wrap .top_line .right_sider .wraper_basket .right_basket span{line-height:19px;margin-left:5px}.line_wrap .top_line .right_sider .wraper_basket{position:relative;width:170px;float:right}.line_wrap .top_line .right_sider .wraper_basket .basket{position:relative;left:20px}.line_wrap .top_line .right_sider .wraper_basket:after{left:-21px}.line_wrap .top_line .right_sider .wraper_basket:before{right:0}.line_wrap .top_line .right_sider .wraper_basket .right_basket:after{content:'';position:absolute;width:1px;height:25px;background-color:#000;top:-2px;left:56px}.line_wrap .top_line .right_sider .wraper_basket .right_basket a{width:20px;background-position:-49px 0}.line_wrap .top_line .right_sider .wraper_basket .right_basket a,.line_wrap .top_line .right_sider .wraper_basket .right_basket span{float:left}.line_wrap .top_line .right_sider .wraper_basket .left_basket{margin-left:90px;line-height:21px}.logo_line{font-size:0;margin:30px 0 40px}.logo_line .col{height:50px;width:400px;font-size:12px}.logo_line .col p{padding:0;margin:0;line-height:30px}.logo_line .col3{text-align:right}.logo_line .logo{position:relative;top:-10px;text-align:center}.main_mnu ul{padding:0;margin:0}.main_mnu ul li{list-style-type:none;text-decoration:none;padding:32px}.main_mnu ul li:last-child{text-align:right;padding-right:0}.main_mnu ul li:last-child a{color:#9a2722}.main_mnu ul li:first-child{text-align:left;padding-left:0}.main_mnu ul li a{color:#000}.head_baner{overflow:hidden;color:#fff;text-align:center;max-width:1600px;height:590px;margin:auto;background-image:url(../img/bg1.jpg)}.head_baner .baner_cont{margin-top:16%}.head_baner .baner_cont span{font-size:14px;position:relative}.head_baner .baner_cont span:after,.head_baner .baner_cont span:before{content:'';position:absolute;width:25px;height:1px;top:7px;background-color:#fff}.head_baner .baner_cont span:before{left:-32px}.head_baner .baner_cont span:after{right:-35px}.head_baner .baner_cont h1{font-size:60px;margin:30px 0;color:#fff;font-family:pfdintextcondpro,sans-serif}
+body,
+button {
+    font-size: 16px
+}
+
+.line_wrap .top_line .right_sider .wraper_basket:after,
+.line_wrap .top_line .right_sider .wraper_basket:before {
+    content: '';
+    background-color: #ccc;
+    top: -16px;
+    height: 55px;
+    width: 1px;
+    position: absolute
+}
+
+.head_baner,
+.line_wrap .top_line .welcome span,
+.logo_line .col,
+.main_mnu ul,
+button {
+    text-transform: uppercase
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue.otf)
+}
+
+@font-face {
+    font-family: pfdintextcondpro;
+    src: url(../fonts/pfdintextcondpro/pfdintextcondpro-regular.ttf)
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+    font-family: HelveticaNeue, sans-serif;
+    overflow-x: hidden
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #CAECEA;
+    color: #bbb
+}
+
+.hidden {
+    display: none
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto
+}
+
+.line_wrap {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 15px
+}
+
+.line_wrap .top_line {
+    height: 28px;
+    max-width: 1200px;
+    margin: auto
+}
+
+.line_wrap .top_line a {
+    color: #000;
+    text-decoration: underline
+}
+
+.line_wrap .top_line .lang {
+    width: 125px;
+    border-right: 1px solid #000;
+    position: relative;
+    float: left
+}
+
+.line_wrap .top_line .lang img {
+    margin: 5px 0
+}
+
+.line_wrap .top_line .lang a {
+    display: block;
+    padding-left: 40px;
+    background-image: url(../img/usa.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    text-decoration: none
+}
+
+.line_wrap .top_line .lang a .arr,
+.line_wrap .top_line .right_sider a {
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat
+}
+
+.line_wrap .top_line .lang a .arr {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    width: 16px;
+    height: 10px;
+    background-position: -70px -5px
+}
+
+.line_wrap .top_line .welcome {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 28px
+}
+
+.line_wrap .top_line .right_sider {
+    height: 28px
+}
+
+.line_wrap .top_line .right_sider a {
+    display: block;
+    width: 24px;
+    height: 30px
+}
+
+.line_wrap .top_line .right_sider .search .like_butt,
+.line_wrap .top_line .right_sider .search .search_butt,
+.logo_line .col,
+.main_mnu ul li {
+    display: inline-block
+}
+
+.line_wrap .top_line .right_sider .search {
+    float: right;
+    width: 115px;
+    height: 28px;
+    position: relative;
+    margin-right: 30px
+}
+
+.line_wrap .top_line .right_sider .search .like_butt a {
+    background-position: -24px 0
+}
+
+.line_wrap .top_line .right_sider .search .like_butt a,
+.line_wrap .top_line .right_sider .search .like_butt span {
+    float: left;
+    margin-left: 10px
+}
+
+.line_wrap .top_line .right_sider .search .like_butt span,
+.line_wrap .top_line .right_sider .wraper_basket .right_basket span {
+    line-height: 19px;
+    margin-left: 5px
+}
+
+.line_wrap .top_line .right_sider .wraper_basket {
+    position: relative;
+    width: 170px;
+    float: right
+}
+
+.line_wrap .top_line .right_sider .wraper_basket .basket {
+    position: relative;
+    left: 20px
+}
+
+.line_wrap .top_line .right_sider .wraper_basket:after {
+    left: -21px
+}
+
+.line_wrap .top_line .right_sider .wraper_basket:before {
+    right: 0
+}
+
+.line_wrap .top_line .right_sider .wraper_basket .right_basket:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #000;
+    top: -2px;
+    left: 56px
+}
+
+.line_wrap .top_line .right_sider .wraper_basket .right_basket a {
+    width: 20px;
+    background-position: -49px 0
+}
+
+.line_wrap .top_line .right_sider .wraper_basket .right_basket a,
+.line_wrap .top_line .right_sider .wraper_basket .right_basket span {
+    float: left
+}
+
+.line_wrap .top_line .right_sider .wraper_basket .left_basket {
+    margin-left: 90px;
+    line-height: 21px
+}
+
+.logo_line {
+    font-size: 0;
+    margin: 30px 0 40px
+}
+
+.logo_line .col {
+    height: 50px;
+    width: 400px;
+    font-size: 12px
+}
+
+.logo_line .col p {
+    padding: 0;
+    margin: 0;
+    line-height: 30px
+}
+
+.logo_line .col3 {
+    text-align: right
+}
+
+.logo_line .logo {
+    position: relative;
+    top: -10px;
+    text-align: center
+}
+.main_mnu button {
+	background-color: #1A0000;
+	width: 100%;
+	color: #fff;
+	display: none;
+}
+
+.main_mnu ul {
+    padding: 0;    
+    margin: 0
+}
+
+.main_mnu ul li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 32px
+}
+
+.main_mnu ul li:last-child {
+    text-align: right;
+    padding-right: 0
+}
+
+.main_mnu ul li:last-child a {
+    color: #9a2722
+}
+
+.main_mnu ul li:first-child {
+    text-align: left;
+    padding-left: 0
+}
+
+.main_mnu ul li a {
+    color: #000
+}
+
+.head_baner {
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    max-width: 1600px;
+    height: 590px;
+    margin: auto;
+    background-image: url(../img/bg1.jpg)
+}
+
+.head_baner .baner_cont {
+    margin-top: 16%
+}
+
+.head_baner .baner_cont span {
+    font-size: 14px;
+    position: relative
+}
+
+.head_baner .baner_cont span:after,
+.head_baner .baner_cont span:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 1px;
+    top: 7px;
+    background-color: #fff
+}
+
+.head_baner .baner_cont span:before {
+    left: -32px
+}
+
+.head_baner .baner_cont span:after {
+    right: -35px
+}
+
+.head_baner .baner_cont h1 {
+    font-size: 60px;
+    margin: 30px 0;
+    color: #fff;
+    font-family: pfdintextcondpro, sans-serif
+}

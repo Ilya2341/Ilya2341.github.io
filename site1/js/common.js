@@ -36,5 +36,14 @@ $(function() {
 	};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+	$(".main_mnu button").on("click", showMnu);
+	var caunt = 0;
+	function showMnu(){
+		$(".main_mnu ul").css("display", "block");
+		caunt++;
+		if (caunt % 2 ==0){
+			$(".main_mnu ul").css("display", "none");
+		}
+	}
 
 });
